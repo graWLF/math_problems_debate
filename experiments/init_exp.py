@@ -6,7 +6,7 @@ from solib.Experiment import Experiment
 from solib.data.loading import GSM8K
 from solib.utils.default_tools import math_eval
 
-questions = GSM8K.data(limit=100)
+questions = LogiQA.data(limit=50)
 
 init_exp = Experiment(
     questions=questions,
@@ -23,8 +23,9 @@ init_exp = Experiment(
         # "ollama_chat/llama3.1:8b-instruct-q6_K",
         "openrouter/gpt-4o-mini-2024-07-18",
         # "gpt-4o-mini-2024-07-18",
+        "claude-3-haiku-20240307",
     ],
-    protocols=["blind", "propaganda", "debate", "consultancy"],
+    protocols=["blind", "debate", "consultancy"],
     bon_ns=[1],#,4],#[1,4],  # , 8],#, 16, 32],
     write_path=Path(__file__).parent
     / "results"
