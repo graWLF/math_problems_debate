@@ -62,11 +62,18 @@ async def main(limit: int, model: str):
     results = []
     failed = 0
 
-    tasks = [generate_distractor(item, model) for item in dset]
     raw_items = list(dset)
-
     print(f"Generating distractors for {len(raw_items)} questions using {model}...")
-    responses = await asyncio.gather(*tasks)
+
+    # Process in batches to avoid TPM rate limits
+    BATCH_SIZE = 5
+    responses = []
+    for i in range(0, len(raw_items), BATCH_SIZE):
+        batch = raw_items[i:i + BATCH_SIZE]
+        batch_tasks = [generate_distractor(item, model) for item in batch]
+        batch_responses = await asyncio.gather(*batch_tasks)
+        responses.extend(batch_responses)
+        print(f"  {min(i + BATCH_SIZE, len(raw_items))}/{len(raw_items)} done")
 
     for item, distractor in zip(raw_items, responses):
         if distractor is None:

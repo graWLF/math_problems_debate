@@ -3,26 +3,26 @@ from pathlib import Path
 from datetime import datetime
 from solib.protocols.protocols import *  # noqa
 from solib.Experiment import Experiment
-from solib.data.loading import PrOntoQA
+from solib.data.loading import LogiQA
 
-# Aşama 1: Pipeline doğrulama — PrOntoQA ile küçük deney
-questions = PrOntoQA.data(limit=10)
+# Aşama 4: Groq modelleriyle asimetrik deney — LogiQA + sentetik distractorlar
+questions = LogiQA.data(limit=50, augmented=True)
 
 init_exp = Experiment(
     questions=questions,
     agent_models=[
-        "gemini/gemini-2.5-flash",   # Expert Debater (güçlü)
+        "groq/llama-3.3-70b-versatile",   # Expert Debater (70B — güçlü)
     ],
     agent_toolss=[[]],
     judge_models=[
-        "gemini/gemini-3.1-flash-lite-preview",   # Weak Judge (zayıf, eski model)
+        "groq/llama-3.1-8b-instant",       # Weak Judge (8B — zayıf)
     ],
-    protocols=["blind", "debate"],
-    num_turnss=[2],
+    protocols=["blind", "debate", "consultancy"],
+    num_turnss=[2, 4],
     bon_ns=[1],
     write_path=Path(__file__).parent
     / "results"
-    / f"init_exp_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}",
+    / f"logiqa_groq_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}",
 )
 
 
