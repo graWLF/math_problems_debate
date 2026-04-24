@@ -58,5 +58,545 @@
     ],
     "correct_option": 2,
     "synthetic_distractor": "Trees are green because they have chlorophyll, which is what makes them appear green. This green appearance is what indicates they have chlorophyll."
+  },
+  {
+    "context": "Last year's inflation rate was 1.2%, and this year has reached 4%, so we can conclude that the inflation rate is on the rise, and the inflation rate will be higher next year.",
+    "query": "Which of the following, if true, would seriously weaken the above conclusion?",
+    "options": [
+      "Inflation rate is calculated based on a representative sample of economically sensitive data, not on available data.",
+      "Inflation last year was the lowest in recent years.",
+      "False prosperity caused by rising inflation rate will eventually lead to economic recession.",
+      "Last year's financial turmoil caused inflation to temporarily fall below the average of 4% in recent years."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "Inflation rate is calculated based on a representative sample of economically sensitive data, not on available data."
+  },
+  {
+    "context": "Aristotle's \"Apocalypse\" records such a sophistry: \"You have a dog, and it has children because it is a father; it is yours, and therefore it is your father; you hitting it means you hitting your own father. \".",
+    "query": "Which of the following makes the same logical fallacy as the above sophistry?",
+    "options": [
+      "Dogs have four legs and sheep have four legs, so dogs can be sheep.",
+      "\"Come up, Czech, roosters have long been called. \" \"What does it matter to me? I'm not a hen. \".",
+      "When someone said that Omar Dem was lying, he whispered, \"Whoever lies says something that doesn't exist; something that doesn't exist cannot be said, so no one lies. \".",
+      "Your opinion turns out to be wrong, so my criticism on your opinion is correct. Now that my opinion is correct, it is undoubted that your opinion is wrong."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "If my opinion is proven to be superior, then your opinion must be inferior; since your opinion is indeed inferior, it logically follows that my opinion is superior."
+  },
+  {
+    "context": "According to \"God Creation\", God created the earth on the first day, the moon on the second day, and the sun on the third day.",
+    "query": "Which of the following assertions is not the meaning of the above-mentioned creation theory?",
+    "options": [
+      "Celestial planets come one after another.",
+      "Regarding the meaning of \"one day\", God has the same understanding and use with us.",
+      "At least there was no sun for the first two days of the earth's existence.",
+      "Without the sun and in darkness, God also can work."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "God's understanding of a day is inherently tied to the creation of celestial bodies, thus a day is defined by what is created within it."
+  },
+  {
+    "context": "A linguist believes that the term \"fiancée\" is contradictory. The dictionary explains \"fiancée\" as \"a wife who is engaged but not married\", and explains \"wife\" as \"when a man and a woman get married, the woman is the man's wife. \" How can you call a wife without getting married?",
+    "query": "Which of the following is the presupposed premise of the linguist?",
+    "options": [
+      "The claims of \"Fiancée\" may lead to the legalization of cohabitation.",
+      "Some are not officially married, but the essence is a de facto marriage.",
+      "In fact, \"fiancée\" is an uncertain marriage relationship.",
+      "The so-called \"fiancée\" actually means that she is not married now, but still the wife of a man."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "The concept of a fiancée presupposes that the marital status of being unmarried is a transient state that does not negate the woman's status as a wife in a broader, more inclusive definition."
+  },
+  {
+    "context": "There was a group discussion of judicial workers in the city. One group has 8 people. At the beginning of the meeting, the group leader asked everyone if they knew each other. As a result, only one person in the group knew 3 of the group, 3 knew 2 of the group, and 4 knew 1 of the group.",
+    "query": "If the above statistics are true, which of the following conclusions can best be reached?",
+    "options": [
+      "The group leader knows the most in the group, and the others know each other less.",
+      "This is the first time such a meeting has been held and everyone is new.",
+      "Some members may only know what they have seen on television or at a briefing.",
+      "Although there are not many acquaintances in the group, what they knew are all close friends."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "Every member of the group must have some form of direct or indirect knowledge of at least one other member, as evidenced by the distribution of known relationships within the group."
+  },
+  {
+    "context": "The head of a chain store was helpless with the management issues brought about by the transition and expansion of the previous stage, so he asked a famous management expert: \"I don’t know how to manage more than 300 chain stores?\" The management expert answered straightforwardly: \"Cut them down \" The CEO asked,\" How much? \"The expert said,\" until you can manage them. \".",
+    "query": "Which of the following statements is premised by the above management experts?",
+    "options": [
+      "The number of affiliated chain stores is related to the nature of the chain stores.",
+      "The number of affiliated chain stores is related to the development of chain stores.",
+      "The number of affiliated chain stores is related to the number of chain leaders.",
+      "The number of affiliated chain stores is related to the capabilities of the boss."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "The capability of the boss is the primary factor that dictates the success of the chain stores, regardless of their number."
+  },
+  {
+    "context": "Li Lin is a civil servant, but not a college graduate.",
+    "query": "Which of the following is necessarily true?",
+    "options": [
+      "Not all university graduates are civil servants.",
+      "Civil servants are not all college graduates.",
+      "Some college graduates are not civil servants.",
+      "Some civil servants are college graduates."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "Only civil servants can be non-college graduates."
+  },
+  {
+    "context": "A research institute conducted a 10-week weight loss test. Participants lost an average of 9 kg. Participants in the middle-aged group lost an average of 13 kg, and participants in the youth group lost an average of 7 kg. Researchers attributed the weight loss difference to the fact that the weight of the middle-aged group was heavier than that of the young group before weight loss.",
+    "query": "Which of the following conclusions can be drawn from the above?",
+    "options": [
+      "Participants in the young group weighed less than those in the middle-aged group before losing weight.",
+      "All participants lost weight.",
+      "There were more participants in the young group than in the middle-aged group.",
+      "There were more participants in the middle age group than in the young group."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "The difference in average weight loss between the middle-aged and youth groups directly reflects the difference in their average initial weights before the weight loss program began."
+  },
+  {
+    "context": "Pigeons can fly back to their homes from hundreds or even thousands of miles away. How do pigeons recognize the way home? For a long time, this has been a mystery, attracting many people to study this problem. According to their hypothesis, some researchers put pigeons into tightly blocked cages and transported them to a strange place, they can still easily found the direction of returning home. If the frosted glass contact lens are mounted on the pigeon's eyes so that they can't see anything more than a few meters away, and transported these \"myopia\" pigeons more than 100 kilometers away, they can also go home and land exactly one to two meters near the pigeonholes--it was only at this distance that they need eye to help.",
+    "query": "Based on the above, which of the following is the hypothesis proposed by these researchers?",
+    "options": [
+      "Pigeons have good eyes and an amazing memory.",
+      "The pigeon has a fairly sophisticated navigation system.",
+      "Pigeons can navigate by geomagnetic.",
+      "Pigeons lose their ability to orient during strong magnetic explosions in the sun and during lunar eclipses."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "The pigeon's navigation is primarily facilitated by its olfactory system, allowing it to recognize and follow specific scents back to its home."
+  },
+  {
+    "context": "The financing for a large construction project was provided by a bank. When the funds were used up before the project was completed, the bank approved a further loan. Now, as the funds are used up again and the project is still not completed, the bank refuses to increase further loans, although the projects would have been ruined without loans.",
+    "query": "Which of the following, if true, would best explain why banks are responding differently from their previous responses?",
+    "options": [
+      "The bank re-evaluated the potential income of the completed project and concluded that the total revenue that the project can generate will be lower than the total interest of the old loans plus the new loans.",
+      "The bank has identified several other projects, which could lead to faster principal recovery if loans are now approved for them to start.",
+      "The bank and the borrower have agreed that the construction loan is guaranteed by the completed project.",
+      "Cost overruns are mainly due to unforeseen problems at the most difficult stage of construction."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "The bank has adjusted its lending criteria to prioritize projects with shorter completion timelines, reflecting a shift towards investments with quicker returns."
+  },
+  {
+    "context": "The tobacco industry has a lot of money, and it is expected to continue to do so. Last year, the total amount of tobacco sold by American tobacco farmers increased significantly, but the number of smokers in the country continued to decline.",
+    "query": "If the following are true, they can be the reason for the above phenomenon, except:.",
+    "options": [
+      "More women start smoking this year than men who have quit.",
+      "People who continue to smoke consume more tobacco than in previous years.",
+      "The number of people who started smoking grass or taking snuff this year is more than the number who have given up smoking.",
+      "More cigarettes produced in the U. S. are exported to other countries this year than last year."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "More tobacco is being exported to other countries where smoking rates are higher."
+  },
+  {
+    "context": "Residents in the countryside have stronger purchasing power than residents in the city, because they can use part of the funds that urban and suburban residents use to buy food and houses to buy other things they need.",
+    "query": "Which of the following best fits the above explanation of why rural residents have strong purchasing power?",
+    "options": [
+      "Generally speaking, there are more rural residents than in cities or in the suburbs.",
+      "Rural residents spend less on food and housing than urban or suburban residents.",
+      "The average income level of urban and suburban residents is generally not much higher than that of rural residents.",
+      "Both urban and rural residents spend more on house purchases than other related goods."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "Rural residents allocate a larger portion of their income towards discretionary spending, which is a direct result of their purchasing power being influenced by factors other than the cost of necessities."
+  },
+  {
+    "context": "One day in 1910, the young German meteorologist Wegener was lying on a hospital bed, turning his eyes to a map of the world on the wall. He accidentally discovered that the west coast of Africa is so consistent with the east coast of South America that it is like a torn piece of paper which can be put together again. Wegener's mind flashed an idea: the two continents were originally a whole piece, but they broke up later and drifted away, and formed the way it is now. After further research, Wegener came up with a completely new hypothesis-the theory of continental drift.",
+    "query": "The following items further support the \"continental drift theory\" from different perspectives, except:.",
+    "options": [
+      "The opposite stratigraphic sequence (stratigraphic structure) on both sides of the Atlantic Ocean and the Indian Ocean is the same.",
+      "Paleontological species (plant fossils and animal fossils) on both sides of the Atlantic are almost identical.",
+      "Traces left in the rock formations indicate that long ago, today's Arctic was once a very hot desert.",
+      "Geological traces indicate that the five continents on the earth were formed almost simultaneously."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "Geological evidence suggests that each continent has a unique tectonic history, indicating separate formations over different time periods."
+  },
+  {
+    "context": "According to official reports, the suicide rate (the number of suicides per 1,000 people) in Greenland was 17 times higher in 1987 than in 1960. Because Greenland changed from a hunting and fishing society to an industrial society from 1960 to 1987. The huge change of suicide rate must be the result of this social change.",
+    "query": "Which of the following, if true, would most seriously challenge the above conclusion?",
+    "options": [
+      "Changing from a hunting and fishing society to an industrial society can sometimes cause major change on crime rates.",
+      "In the hunting and fishing society, a considerable number of members choose to commit suicide.",
+      "According to official records, there was a certain increase in the number of suicides in Greenland in 1987.",
+      "In 1987, most suicides in Greenland were reported officially, while most suicides in 1960 were not recorded."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "The methods used for collecting and categorizing suicide data in Greenland changed significantly between 1960 and 1987, which could account for the discrepancy in reported suicide rates."
+  },
+  {
+    "context": "Only by recognizing errors can they be corrected. \".",
+    "query": "All of the following items accurately express the meaning of the above determination, except:.",
+    "options": [
+      "You cannot correct mistakes unless you recognize them.",
+      "If you do not recognize the error, you cannot correct it.",
+      "If you correct the mistake, you already know the mistake.",
+      "Correct errors as long as you recognize them."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "The act of recognizing an error inherently corrects it, as understanding the mistake is what fixes it."
+  },
+  {
+    "context": "An academic conference is holding a group meeting. Group A has 8 people present. The group leader asks everyone if they know each other. As a result, only 1 person in the group knew 3 of the group and 3 people knew 2 of the group，and 4 people know 1 of the group.",
+    "query": "If the above statistics are true, the best conclusion can be.",
+    "options": [
+      "The group leader knows the most in the group, and the others know each other less.",
+      "This is the first time such a meeting has been held and everyone is new.",
+      "Some members may be aware of what they have only seen on television or at a briefing.",
+      "Although there are not many acquaintances in the group, what they knew are all close friends."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "The distribution of known relationships within the group clearly indicates a structured social dynamic, where individuals with more connections have a more central role."
+  },
+  {
+    "context": "A country loses excessive topsoil and needs to import more food, which increases the pressure on the soil in other countries; air pollution in one country causes acid rain in neighboring countries; excessive emissions of carbon dioxide cause global warming and sea-level rise, which almost can endanger all countries and regions.",
+    "query": "Which of the following items best summarize the main points made above.",
+    "options": [
+      "Environmental pollution has affected relations between countries and may cause international disputes.",
+      "The rapid development of the economy will inevitably lead to the intensification of environmental pollution. It is a rule that pollution is first and then governance is followed.",
+      "In terms of pollution control, developed countries are willing to take more responsibilities and obligations.",
+      "Environmental pollution has become a regional and international problem. Solving environmental pollution is a common task for humanity."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "Environmental problems necessitate a uniform global response because their effects are universally experienced."
+  },
+  {
+    "context": "In a restaurant, all the dishes belong to Sichuan cuisine or Cantonese cuisine, and Mr. Zhang's order includes Sichuan cuisine. Therefore, there is no Cantonese cuisine in Mr. Zhang's order.",
+    "query": "Which of the following is necessary to make the above argument valid?",
+    "options": [
+      "The restaurant stipulates that when you order Cantonese food, you cannot order Sichuan food and vice versa.",
+      "The restaurant rules that if you order Sichuan food, you can not order Cantonese food, but when you order Cantonese food, you must also order Sichuan food.",
+      "Mr. Zhang is from Sichuan and only likes Sichuan cuisine.",
+      "Mr. Zhang is a Cantonese, and he likes Cantonese food."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "The restaurant's menu is structured such that selecting a Sichuan dish automatically excludes the possibility of including any Cantonese dishes in the same order."
+  },
+  {
+    "context": "There are four small balls that do not appear to be separate, but their weights may be different. Take a scales and group A and B into one group, and C and D into another group. Place them on each side of the scales. The scales is basically balanced. B and D are reversed, then A and B are obviously heavier than B and C. But strangely, we put A and C on one side of the scales, and B on the other side. When there was no time to put D, the balance was pressed to B's side.",
+    "query": "Please judge, A or D, which one is heavier?",
+    "options": [
+      "D is heavier than A.",
+      "D is lighter than A.",
+      "A is as heavy as D.",
+      "Unable to determine the weight of the A and the D."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "A is heavier than D."
+  },
+  {
+    "context": "The National Games held a women's 5,000-meter race. Liaoning, Shandong and Hebei, each team sent three athletes to participate in the game. Before the competition, four sports enthusiasts were together to predict the outcome of the game. A said: \"Liaoning team has a set of training, and this time the top three must belong to them. \" B said：\" This year is different from last year. The Liaoning team will take at most one gold, silver and bronze medals. \" \"According to my estimation, Shandong team or Hebei team will take the card,\" said C. \"If the first place is not from the Liaoning team, it should be the Shandong team. \" said D. After the match, it was found that only one of the above four people was in words.",
+    "query": "Which of the following is most likely the result of the competition?",
+    "options": [
+      "First place Liaoning team, second place Liaoning team, third place Liaoning team.",
+      "First place Liaoning team, second place Hebei team, fourth place Shandong team.",
+      "First place Shandong team, second place Liaoning team, third place Hebei team.",
+      "First place Hebei team, second place Liaoning team, third place Liaoning team."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "First place Shandong team, second place Hebei team, third place Liaoning team."
+  },
+  {
+    "context": "A recent study by an insurance company showed that those who work in a comfortable work environment are 25% more productive than those who work in an uncomfortable work environment. This shows that an increasingly improved work environment can increase worker productivity.",
+    "query": "Which of the following hypotheses is the most serious challenge to the above causality?",
+    "options": [
+      "On average, less productive employees spend less time in the workplace than more productive employees.",
+      "A comfortable environment is more motivating than hard work.",
+      "A comfortable work environment is usually a reward for highly productive employees.",
+      "In a crowded, uncomfortable environment, coworker pressure prevents employees from working."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "A comfortable environment is more motivating than hard work."
+  },
+  {
+    "context": "Black Americans have high blood pressure twice as much as white Americans. The same is true of westernized blacks African compared to white Africans. Researchers hypothesize that westernized blacks suffer from high blood pressure for two reasons. The first is the high salt content of western foods; the second is the adaptation mechanism to the environment of the blacks' genes.",
+    "query": "Which of the following, if true, would best support researcher's hypothesis?",
+    "options": [
+      "Blood pressure in descendants of contemporary westernized black African Gambians is usually not high, as Gambians have historically been short of salt.",
+      "Unusually high salt intake in some parts of Africa is a serious health hazard.",
+      "Considering health, most white Africans also pay attention to controlling salt intake.",
+      "Salt deficiency and salt sufficiency have not found any substantial difference in human metabolism."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "Unusually high salt intake in some parts of Africa is a serious health hazard."
+  },
+  {
+    "context": "An indigenous person tests the physical fitness of newborn babies in order to improve the combat effectiveness of their offspring. They place newborn babies in a harsh natural environment to test their vitality, and abandon those who are weak and cannot stand the test, and leave those sturdy babies. This method did not make the local indigenous people strong but declined.",
+    "query": "Which of the following is most appropriate as the cause of the eventual failure of local talent selection?",
+    "options": [
+      "The physical fitness of newborn babies is good, but they may not be stronger when they grow up.",
+      "Physiological quality is only part of a person's overall quality, and national security requires the improvement of a person's comprehensive quality.",
+      "Talents are selected, but too few are inevitable.",
+      "The child's parents are unhappy with the brutal selection method and are unwilling to defend their city."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "The decline of the local indigenous people stems from the disruption of their genetic diversity due to the selective abandonment of weaker babies, which makes the group more susceptible to diseases and environmental challenges."
+  },
+  {
+    "context": "The Watt who invented the steam engine is not American. \".",
+    "query": "All but which of the following can be derived from the above conclusion?",
+    "options": [
+      "Watt is not American.",
+      "Some inventors are American.",
+      "It was the inventor who invented the steam engine.",
+      "Watt is an inventor."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "All inventors of the steam engine are not American."
+  },
+  {
+    "context": "Mr. Wang of the Institute of Technology said in an interview with the journal: \"In recent years, science students have generally been more interested in studying current affairs and politics than in the past. Because in my class, students were not absent from almost every lecture on current affairs and politics. It was almost unimaginable a few years ago. \".",
+    "query": "Which of the following assumptions does Mr. Wang's conclusion rest on?",
+    "options": [
+      "The occurrence of a series of events at home and abroad in recent years has greatly attracted science students.",
+      "The political awareness of college students enrolled in recent years is generally stronger than previous students.",
+      "Attitude to current affairs politics lectures is an important indicator of whether college students are interested in current affairs politics learning.",
+      "In terms of current affairs and political studies, science students cannot be required to meet the standards of liberal arts students."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "Attendance at lectures on current affairs and politics is a direct measure of students' personal interest in the subject."
+  },
+  {
+    "context": "Wife: I heard that eating fish can make people smart. Husband: How is this possible? Mr. Lu Xun is not a fan of fish because eatting fish takes too much time. Nie Weiping prefers fish head, but if he only eats fish heads for three meals a day, he will never be such smart on the chessboard.",
+    "query": "The husband's rebuttal actually questioned which of the following assertions?",
+    "options": [
+      "If you don't eat fish, you won't be smart.",
+      "It is not only eating fish that makes you smart.",
+      "If anyone eats fish, he can be smart.",
+      "Only eat fish or eat fish alone, people will be smart."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "Eating fish is a guarantee that people will become smart if they eat it frequently."
+  },
+  {
+    "context": " Two production management methods, A and B, have been tried out in two factories respectively. The trial work was carried out as follows: method A was tested in a large factory with a high level of education in the leadership group; method B was tested in a small factory with a low level of education in the leadership group. The result was that the economic benefits of Method A were good, but the economic benefits of Method B were not good. Therefore, it was concluded that Method A was the reason for achieving better economic benefits.",
+    "query": "All of the following can weaken the above conclusions, except:.",
+    "options": [
+      "The situation of the two factories is different, and it cannot be used as an experimental base for testing the two management methods.",
+      "Factory A's leadership team has a high level of education, which is conducive to the understanding and implementation of management methods.",
+      "Factory B's leadership team has a low level of education, which is not conducive to the understanding and implementation of management methods.",
+      "Comparing method A with method B, in fact, method B is better, but unfortunately, the foundation of small factories implementing this method is too poor."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "Method A was inherently more suitable for the conditions of the large factory, which is why it was selected and subsequently showed good economic benefits, making it the better choice under those specific circumstances."
+  },
+  {
+    "context": "After the selection of a \"documentary golden lens award\", factory A's \"Yellow River\" won the best documentary award, factory B's \"Wuyishan\" won the best photography award, and factory C's \"South China Sea\" won the best music award. The three factory directors were invited to introduce their experience to the school. In the lounge, the director of the factory A said, \"It's really interesting that the last names of us are the first word of the film title. \" \"However, each of us has a different last name from the first word of the film we made. ” At this time, a director whose last name is Wu added. “That ’s true!” Factory A' director agreed.",
+    "query": "If the above statement is true, which of the following is true?",
+    "options": [
+      "The last name of Factory A's director is Nan, Factory B's is Wu, and Factory C's is Huang.",
+      "The last name of Factory A's director is Huang, Factory B's is Wu, and Factory C's is Nan.",
+      "The last name of Factory A's director is Nan, Factory B's is Huang, and Factory C's is Wu.",
+      "The last name of Factory A's director is Wu, Factory B's is Huang, and Factory C's is Nan."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "The last name of Factory A's director is Wu, Factory B's is Nan, and Factory C's is Huang."
+  },
+  {
+    "context": "There is a total of 7 teachers, including a director, in a teaching and research office. Regarding these 7 staff members, only one of the following three conclusions is true: Ⅰ. Not that no one in the teaching and research office is from Shanghai.Ⅱ. The members of the teaching and researching office are not all Shanghainese Ⅲ. The director of the teaching and research office is not from Shanghai.",
+    "query": "Which of the following is true?",
+    "options": [
+      " teachers are from Shanghai.",
+      " teachers are not from Shanghai.",
+      "Only one person is not from Shanghai.",
+      "Only one person is from Shanghai."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "At least one teacher is not from Shanghai."
+  },
+  {
+    "context": "Four good classmates make an appointment. If both A and B choose to work in the company, D chooses to work in the agency. And only when A chooses to work in the company, C chooses to work in the company. The final result is that both B and D are in company, and all four fulfilled a common agreement.",
+    "query": "It can be sure that:.",
+    "options": [
+      "Only C did not choose to work in the company.",
+      "Neither A nor C chose to work in the company.",
+      "Four people have chosen to work in the company.",
+      "Only A did not choose to work in the company."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "It can be sure that A chose to work in the company because for C to have a choice that aligns with the agreement, A's decision is pivotal, and since all four fulfilled the agreement with B and D in the company, A's choice must have been in the company to facilitate C's decision and thus the common agreement."
+  },
+  {
+    "context": "In agricultural production, as long as the appropriate limit is not exceeded, the yield of crops will be increased with more fertilizer applied; and the yield of crops will be reduced with less fertilizer applied. It can be seen that the amount of fertilizer applied has a close relationship with the yield of crops.",
+    "query": "Which of the following logical methods is most similar to the above statement?",
+    "options": [
+      "There are sounds of gongs, sounds of blows, and sounds of speech. These sound phenomena are accompanied by the vibration of the air on the object, so it can be concluded that the vibration of the air on the object is the cause of the sound.",
+      "When sawing with a saw, the saw will generate heat; when filing with a file, the file will also generate heat; when sharpening a knife on a stone, the knife will generate heat; when shooting with a gun, the barrel will also become hot. Therefore, friction can generate heat.",
+      "The bell is energized by energizing in a glass cover with air. As the amount of air drawn changes, the ring tone becomes smaller and smaller. If the air is completely drawn out, the ring tone will not be heard at all. Therefore, how much air is the reason why the sound is loud, and whether there is air is the reason why the bell can be heard.",
+      "Cotton is a plant fibre, loose and porous, and can keep warm; snow is frozen by water, with 40% to 50% of the gap, and it is also loose and porous, and can keep warm. It can be seen that loose and porous is the reason for heat preservation."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "The efficiency of a solar panel is closely related to the amount of sunlight it receives. More sunlight generally leads to more electricity generated, up to a maximum capacity. Thus, the amount of sunlight is the primary reason a solar panel can generate electricity."
+  },
+  {
+    "context": "One researcher found that people with low levels of the immune system scored lower on mental health tests than people with high levels of the immune system. The researcher concluded that the immune system can protect not only against physical illness but also mental illness.",
+    "query": "In fact, this causality is not valid. Which of the following is the most serious question?",
+    "options": [
+      "The researcher's theoretical research and the experiments performed are not consistent in time.",
+      "The human immune system is closely related to mental health.",
+      "Some people with a high immune system score differently on psychological tests than people with a normal immune system.",
+      "In general, intense stress first causes mental illness and then reduces the level of activity of the immune system."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "In reality, the presence of mental illness can directly impair the immune system, meaning that the lower immune system levels observed in people with mental health issues are a result of the mental health condition itself, not the other way around."
+  },
+  {
+    "context": "Some people think that in recent years, a large number of rural people have flowed into cities to work, which has caused chaos in the urban social order and a decline in public security. It can be said that allowing rural people to flow into cities is harmful and unhelpful. Therefore, we should clear out the rural population in the city and limit its employment in the city.",
+    "query": "Which of the following, if true, would best refute the above view?",
+    "options": [
+      "The influx of a large number of rural people has made urban roads crowded.",
+      "The influx of rural population into the city is beneficial to both the countryside and the city; it can not only make up for the shortage of urban labour but also accelerate the development of China's rural economy and improve the quality of the rural population.",
+      "In fact, the main offender of many major vicious cases is rural people who work in cities.",
+      "Too much migrant population causes worsening urban health."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "The natural process of rural people flowing into cities reflects the intrinsic dynamics of socio-economic development, necessitating the adaptation of urban structures and policies to accommodate and benefit from this migration, rather than attempting to restrict or reverse it."
+  },
+  {
+    "context": "To establish a market economy system, corresponding laws and regulations should be established to regulate market competition. Essentially, market economy is legal economy. Therefore, it is impossible to establish a market economy system in a country with a weak legal system.",
+    "query": "Which of the following, if true, would most weaken the conclusion?",
+    "options": [
+      "Market economy and legal economy are not a same concept.",
+      "A sound legal system can effectively guarantee equality in competition.",
+      "A complete legal system is of great significance to the development of a market economy.",
+      "The improvement of the legal and regulatory system depends on the improvement of the market economy system."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "The development of a market economy system can lead to the improvement of the legal system, as the needs of the market drive legal reforms."
+  },
+  {
+    "context": "Prosecution: refers to an action order by a citizen, legal person or other organization to request the people's court to hear the case in accordance with the law, to confirm the relationship between civil rights and obligations, to sanction the other party's civil illegal acts and to protect their legitimate rights and interests in their own name when they believe that their civil rights and interests have been infringed by others or have disputes with others.",
+    "query": "According to the above definition, which of the following cases belongs to prosecution?",
+    "options": [
+      "Someone reports to a public security agency for theft at home.",
+      "Someone submits an instrument to the High Court because of dissent.",
+      "An enterprise sued the other party for failure to perform the contract.",
+      "The defendant counter claimed the plaintiff during the litigation because he found that the plaintiff violated his rights."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "A regulatory body took a company to court for not complying with industry standards."
+  },
+  {
+    "context": "Technical audiences: These listeners work hard to listen to others. They value words, facts, and statistics, but they don't do enough in feelings, sympathy, and true understanding.",
+    "query": "Which of the following are technical audiences?",
+    "options": [
+      "The audiences who read the newspaper with their heads down and dozed off squinting during the meeting.",
+      "The audiences who always take a lot of notes when listening to the leader's speech, but often follow their own intentions when implementing policies and are inconsistent with the leader's intentions.",
+      "The audiences who sighed \"listen to your words, better than ten years of reading\".",
+      "The audiences who only listen to some easy-to-understand content and avoid difficult topics."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "The groups that prioritize data and factual information in their decision-making processes, demonstrating a high regard for the details and statistics presented by the leader."
+  },
+  {
+    "context": "Imaginary defence: Refers to the fact that there is no ongoing illegal infringement objectively, and the perpetrator mistakenly believes that illegal infringement is taking place, and has justified the imaginary \"infringer\".",
+    "query": "Which of the following are not imaginary defences?",
+    "options": [
+      "Someone vaguely found someone hiding under the window, thinking it was a thief stealing something, and wounding it with a stick, but found that it was a child playing hide-and-seek.",
+      "Someone walks on the street and finds that the previous one is a corrupt criminal in the General Public Security Bureau, so he immediately catches him but finds that he has identified the wrong person.",
+      "The villager Li was very annoyed by the continuous theft. One night, he found that someone quietly walked into his yard and hit him, but found that it was his son who was late.",
+      "Someone rides home late at night, and suddenly a person appears on the roadside. He thought it was robbing, and then beat the person. He found that he was a middle school student who wanted to make fun of himself."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "A person who intervenes in a situation they believe to be illegal infringement, but is actually a lawful action, thereby making their defence not imaginary because it's in response to a perceived, though misidentified, real event."
+  },
+  {
+    "context": "Knowledge management: build a quantified and qualitative knowledge system in the organization, and allow the information and knowledge in the organization to continuously feedback to the knowledge system through processes such as acquisition, creation, sharing, integration, recording, access, update or innovation. It will form an uninterrupted accumulation of personal and organizational knowledge, and become a cycle of organizational intelligence. It will become the intelligent capital of management and application in the enterprise organization, which will help companies to make correct decisions to cope with market changes. It is a process of creating, acquiring, and using knowledge to enhance the performance of an organization.",
+    "query": "Based on the above definitions, which of the following is not the knowledge management?",
+    "options": [
+      "Ernst & Yong has developed an electronic file system which can quickly encode and store employees' knowledge and information into a file database. It can be called by company personnel and become a company's standardized, high-quality and fast consulting service.",
+      "Dell: Leaving employees' results and customer information in the company, that is, separation of people from information.",
+      "Dow's patent management: divided into current use, will use and not use, saving patent tax, obtaining patent royalties, about 200 million US dollars a year.",
+      "Smnrtall implements layoffs throughout the company based on data from last year's annual report."
+    ],
+    "correct_option": 3,
+    "synthetic_distractor": "Implementing a stricter hierarchy for decision-making to ensure all choices are funneled through top management."
+  },
+  {
+    "context": "A false conflict is when there are differences between the two parties to the conflict, but there is no objective basis for this difference.",
+    "query": "Which of the following are false conflicts?",
+    "options": [
+      "A friend called a party, but Xiao Wang was not invited, so he was very unhappy, and his friend was dissatisfied because Xiao Wang did not go to the party. In fact, the friend called and invited Xiao Wang, but Xiao Wang was away, so he asked his colleagues to tell him, but they forgot.",
+      "Li feels that the teacher's score in the mid-term exam is too low, and he is not happy, but it is not easy to speak directly, so he deliberately asks some difficult questions in class.",
+      "Kobayashi is watching TV with a friend. Kobayashi wants to watch a TV series, but his friend wants to watch the broadcast of a football game.",
+      "A mother noticed the smell of smoke in the house and thought her daughter's boyfriend had smoked, so she warned him not to smoke at home. In fact, it was her daughter who smoked."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "A conflict between a customer and a store owner where the customer feels cheated because they were charged a higher price than expected, and the owner is defensive because they believe the customer should have checked the prices more carefully, constitutes a false conflict if it's later discovered that the customer was indeed overcharged due to a mistake, but the owner had intended to honor the advertised price."
+  },
+  {
+    "context": "In 995, Chinese players won a total of 103 world championships in major global sports competitions, creating 57 world records, the highest in history. In 1995, only 15% of the high school students who entered the university in China had physical examinations qualified.",
+    "query": "Therefore, the correct conclusion we can draw is that in 1995,?",
+    "options": [
+      "China has become a world sports power.",
+      "Only 15% of high school students in China advance to college.",
+      "China's competitive sports have reached the highest point in history.",
+      "College entrance physical examination standards have been raised."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "China's emphasis on physical education led to a surge in qualified athletes, despite the low percentage of students passing physical examinations."
+  },
+  {
+    "context": "The Oscar-winning film `` Titanic '' was released in a state, and an exclusive operating right of the state was given to a film distribution and projection company. All departments of the company were busy. The publicity department invested an unprecedented 1.7 million RMB for various forms of advertising. The business department organized 8 major theatres for advanced screening and extended schedules, and the finance department implemented specific revenue sharing with each theatre. In the end, almost everyone in the city went to watch this film, and the company earned 7.5 million RMB. But when summarizing this work, the company criticized the mistakes made by the publicity department in this work.",
+    "query": "Which of the following, if true, would best explain the above situation?",
+    "options": [
+      "The company's publicity department did not communicate with other departments in advance, and the propaganda lacked pertinence.",
+      "The company ’s publicity department ’s investment is actually too large because it ignores the Oscar-winning film itself has a free publicity effect.",
+      "The company's publicity department has not invested enough. When `` Titanic '' was released in another state, the company publicized and invested 3 million RMB.",
+      "The propaganda of the company's publicity department has no new breakthroughs in creativity and form."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "The company's criticism of the publicity department stems from the belief that a smaller, more targeted advertising campaign would have been as effective, given the film's Oscar win and subsequent organic buzz."
+  },
+  {
+    "context": "A new type of computer keyboard has been introduced on the market. The new keyboard has the \"three most\" characteristics that traditional keyboards do not have, that is, the most commonly used keys are designed the closest to the most flexible fingers. The new keyboard can greatly improve typing speed and reduce error rate. Therefore, replacing the traditional keyboard with the new keyboard can quickly improve the work efficiency of related departments.",
+    "query": "Which of the following, if true, would most weaken the argument?",
+    "options": [
+      "Some keyboard users' most flexible fingers are different from ordinary people.",
+      "The most commonly used keys in traditional keyboards are not designed to be farthest from the most flexible fingers.",
+      "The more efficiently you can use a traditional keyboard, the less likely you will be proficient in using the new keyboard in the short term.",
+      "The price of the new keyboard is higher than that of the traditional keyboard."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "The greater the employee's experience with traditional keyboards, the more time it will take for them to adjust to the new keyboard layout."
+  },
+  {
+    "context": "The incidence of coronary heart disease in developed countries is about three times that of developing countries. Some people think that this is mainly due to people's high fat, high protein and high-calorie food intake in developed countries. Few people have the conditions to have this kind of \"rich disease\" in developing countries. In fact, this view is difficult to establish. At present, the average life expectancy in developed countries is higher than 70 years, while the average life expectancy in developing countries is less than 50 years.",
+    "query": "Which of the following, if true, would best strengthen the above rebuttal?",
+    "options": [
+      "Statistics show that patients with coronary heart disease are relatively concentrated in the middle and old age groups, that is, those over 45.",
+      "At present, patients with coronary heart disease are younger.",
+      "People's high-fat, high-protein, and high-calorie food intake in developing countries, both in total and per capita, is increasing year by year.",
+      "Compared with developing countries, people in developed countries have a higher common sense of prevention and treatment of coronary heart disease and better medical conditions."
+    ],
+    "correct_option": 0,
+    "synthetic_distractor": "At present, patients with coronary heart disease are younger."
+  },
+  {
+    "context": "A tax imposed by the government on basic goods is two cents on each can of edible oil sold. Tax records show that despite the stable per capita quantity and strong enforcement of tax laws, the amount of edible oil taxes in the first two years still dropped significantly.",
+    "query": "Which of the following is most helpful in explaining the decline in edible oil taxes?",
+    "options": [
+      "Few households start producing their own edible oil after the tax increase.",
+      "Businessmen start selling oil in bigger can than before after the tax law came into effect.",
+      "Two years after the introduction of the edible oil tax, the government began to levy taxes on many other basic commodities.",
+      "Edible oil cans are traditionally used as wedding gifts. After the implementation of the tax law, the use of edible oils as gifts has increased."
+    ],
+    "correct_option": 1,
+    "synthetic_distractor": "A significant portion of the edible oil market shifted to untaxed or differently packaged oil products after the tax law came into effect."
+  },
+  {
+    "context": "For a certain type of ulcer, traditional therapies can completely cure ulcers in 44% of patients within 6 months. A new treatment for this kind of ulcers has made 80% of ulcers achieved significant improvements in a 6-month trial and 61% were cured. Since the trial only treated those with more severe ulcers, this new treatment was obviously more effective than traditional therapies.",
+    "query": "What additional evidence is needed to better compare the effects of the two therapies?",
+    "options": [
+      "which is the difference between the two methods?",
+      "Are there significant differences in the cost of using the two therapies?",
+      "What percentage of patients with this ulcer treated with traditional therapies in 6 months have achieved significant improvement.",
+      "What percentage of patients who participated in a 6-month trial of a new therapy was dissatisfied with the rate of recovery."
+    ],
+    "correct_option": 2,
+    "synthetic_distractor": "The percentage of patients with severe ulcers that can be effectively identified and separated for targeted treatment with either therapy."
   }
 ]
