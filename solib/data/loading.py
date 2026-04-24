@@ -272,6 +272,32 @@ class TruthfulQA(Dataset):
         return inst
 
 
+class LogiQA(Dataset):
+    """
+    LogiQA: logical reasoning dataset from HuggingFace lucasmccabe/logiqa.
+    4-choice questions; loaded as binary (correct + 1 random incorrect).
+    """
+    def extract_info(self, data_item: dict, user_seed=0) -> Tuple[str, str, str]:
+        context = data_item["context"]
+        query = data_item["query"]
+        question = f"{context}\n\nQuestion: {query}"
+        options = data_item["options"]
+        correct_idx = data_item["correct_option"]
+        correct_answer = options[correct_idx]
+        wrong_indices = [i for i in range(len(options)) if i != correct_idx]
+        incorrect_idx = random(data_item, user_seed=user_seed).choice(wrong_indices)
+        return question, correct_answer, options[incorrect_idx]
+
+    @classmethod
+    def data(cls, user_seed=0, limit=None):
+        dset = load_dataset("lucasmccabe/logiqa", split="train")
+        inst = cls()
+        if limit is not None:
+            dset = dset.select(range(limit))
+        inst.set_questions(dset, user_seed)
+        return inst
+
+
 class QuALITY(Dataset):
     """
     QuALITY dataset loader.

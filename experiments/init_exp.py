@@ -3,34 +3,26 @@ from pathlib import Path
 from datetime import datetime
 from solib.protocols.protocols import *  # noqa
 from solib.Experiment import Experiment
-from solib.data.loading import GSM8K
-from solib.utils.default_tools import math_eval
+from solib.data.loading import PrOntoQA
 
-questions = LogiQA.data(limit=50)
+# Aşama 1: Pipeline doğrulama — PrOntoQA ile küçük deney
+questions = PrOntoQA.data(limit=10)
 
 init_exp = Experiment(
     questions=questions,
     agent_models=[
-        "claude-3-5-sonnet-20241022",
-        "claude-3-5-haiku-20241022",
-        # "claude-3-opus-20240229",
-        "openrouter/deepseek/deepseek-chat", # "ollama_chat/deepseek-v3"
-        # "ollama_chat/llama3.1:8b-instruct-q6_K",
+        "gemini/gemini-2.5-flash",   # Expert Debater (güçlü)
     ],
-    agent_toolss=[[], [math_eval]],
+    agent_toolss=[[]],
     judge_models=[
-        # "localhf://meta-llama/Meta-Llama-3.1-8B-Instruct",
-        # "ollama_chat/llama3.1:8b-instruct-q6_K",
-        "openrouter/gpt-4o-mini-2024-07-18",
-        # "gpt-4o-mini-2024-07-18",
-        "claude-3-haiku-20240307",
+        "gemini/gemini-3.1-flash-lite-preview",   # Weak Judge (zayıf, eski model)
     ],
-    protocols=["blind", "debate", "consultancy"],
-    bon_ns=[1],#,4],#[1,4],  # , 8],#, 16, 32],
+    protocols=["blind", "debate"],
+    num_turnss=[2],
+    bon_ns=[1],
     write_path=Path(__file__).parent
     / "results"
     / f"init_exp_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}",
-    continue_from = Path(__file__).parent / "results" / "init_exp_2025-02-14_07-50-51",
 )
 
 
