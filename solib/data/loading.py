@@ -276,7 +276,10 @@ class LogiQA(Dataset):
     """
     LogiQA: logical reasoning dataset from HuggingFace lucasmccabe/logiqa.
     4-choice questions; loaded as binary (correct + 1 random incorrect).
+    augmented=True uses synthetically generated distractors from logiqa_augmented.json.
     """
+    augmented_path = osp.join(file_path(), "logiqa", "logiqa_augmented.json")
+
     def extract_info(self, data_item: dict, user_seed=0) -> Tuple[str, str, str]:
         context = data_item["context"]
         query = data_item["query"]
@@ -284,17 +287,27 @@ class LogiQA(Dataset):
         options = data_item["options"]
         correct_idx = data_item["correct_option"]
         correct_answer = options[correct_idx]
+        if "synthetic_distractor" in data_item:
+            return question, correct_answer, data_item["synthetic_distractor"]
         wrong_indices = [i for i in range(len(options)) if i != correct_idx]
         incorrect_idx = random(data_item, user_seed=user_seed).choice(wrong_indices)
         return question, correct_answer, options[incorrect_idx]
 
     @classmethod
-    def data(cls, user_seed=0, limit=None):
-        dset = load_dataset("lucasmccabe/logiqa", split="train")
+    def data(cls, user_seed=0, limit=None, augmented=False):
         inst = cls()
-        if limit is not None:
-            dset = dset.select(range(limit))
-        inst.set_questions(dset, user_seed)
+        if augmented:
+            if not osp.exists(cls.augmented_path):
+                raise FileNotFoundError(
+                    f"Augmented dataset not found at {cls.augmented_path}. "
+                    "Run experiments/generate_logiqa_distractors.py first."
+                )
+            inst.from_json(cls.augmented_path, user_seed=user_seed, limit=limit)
+        else:
+            dset = load_dataset("lucasmccabe/logiqa", split="train")
+            if limit is not None:
+                dset = dset.select(range(limit))
+            inst.set_questions(dset, user_seed)
         return inst
 
 

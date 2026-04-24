@@ -268,4 +268,16 @@ DEFAULT_RATES = (
         "openrouter/gpt-4o-mini-2024-07-18": {"rpm": 500, "tpm": 200_000},
         "openrouter/gpt-4o-mini": {"rpm": 500, "tpm": 200_000},
     }
+    | {
+        "groq/llama-3.3-70b-versatile": {"rpm": 30, "tpm": 12_000},
+        "groq/llama-3.1-8b-instant": {"rpm": 30, "tpm": 6_000},
+        "groq/llama-3.1-70b-versatile": {"rpm": 30, "tpm": 12_000},
+        "groq/mixtral-8x7b-32768": {"rpm": 30, "tpm": 5_000},
+    }
+    | {
+        "gemini/gemini-2.5-flash": {"rpm": 10, "tpm": 250_000},
+        "gemini/gemini-2.0-flash": {"rpm": 15, "tpm": 1_000_000},
+        "gemini/gemini-3.1-flash-lite-preview": {"rpm": 15, "tpm": 250_000},
+        "gemini/gemini-2.5-flash-lite": {"rpm": 15, "tpm": 250_000},
+    }
 )
