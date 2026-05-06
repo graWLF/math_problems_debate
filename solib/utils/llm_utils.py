@@ -77,8 +77,6 @@ def supports_response_models(model: str) -> bool:
     """Returns whether a model supports response models based on its name."""
     if is_localhf(model) or "deepseek" in model.lower():
         return False
-    if model.lower().startswith("groq/"):
-        return False
 
     return True
 

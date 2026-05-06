@@ -6,7 +6,7 @@ from solib.Experiment import Experiment
 from solib.data.loading import LogiQA
 
 # Pilot deney: 10 soru, blind + debate, Groq free tier limitine sığacak şekilde
-questions = LogiQA.data(limit=15, augmented=True)
+questions = LogiQA.data(limit=30, augmented=True)
 
 init_exp = Experiment(
     questions=questions,
