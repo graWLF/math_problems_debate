@@ -486,7 +486,7 @@ class Experiment:
         path_new = path
         while path_new.exists():
             i += 1
-            path_new = path.with_name(path.stem + f"_{i}")
+            path_new = path.with_name(path.name + f"_{i}")
 
         # For Propaganda, also return a MarketMaking path
         if config["protocol"] == Propaganda or (
