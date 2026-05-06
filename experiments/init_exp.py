@@ -7,7 +7,7 @@ from solib.data.loading import LogiQA
 
 questions = LogiQA.data(limit=30, augmented=True)
 
-CONTINUE_FROM = Path(__file__).parent / "results" / "logiqa_groq_2026-05-06_21-40-59"
+CONTINUE_FROM = Path(__file__).parent / "results" / "logiqa_groq_2026-05-06_23-17-44"
 
 init_exp = Experiment(
     questions=questions,
