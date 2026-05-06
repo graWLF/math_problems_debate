@@ -1,12 +1,13 @@
 import asyncio  # noqa
 from pathlib import Path
-from datetime import datetime
 from solib.protocols.protocols import *  # noqa
 from solib.Experiment import Experiment
 from solib.data.loading import LogiQA
 
 # Pilot deney: 10 soru, blind + debate, Groq free tier limitine sığacak şekilde
 questions = LogiQA.data(limit=30, augmented=True)
+
+CONTINUE_FROM = Path(__file__).parent / "results" / "logiqa_groq_2026-05-06_21-40-59"
 
 init_exp = Experiment(
     questions=questions,
@@ -20,9 +21,8 @@ init_exp = Experiment(
     protocols=["blind", "debate", "consultancy"],
     num_turnss=[2],
     bon_ns=[1],
-    write_path=Path(__file__).parent
-    / "results"
-    / f"logiqa_groq_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}",
+    write_path=CONTINUE_FROM,
+    continue_from=CONTINUE_FROM,
 )
 
 
